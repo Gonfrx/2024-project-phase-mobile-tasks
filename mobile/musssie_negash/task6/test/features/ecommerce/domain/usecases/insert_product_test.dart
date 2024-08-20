@@ -17,9 +17,9 @@ void main() {
   final testInsertProduct = Product(
     id: '1',
     name: 'product',
-    info: 'description',
+    description: 'description',
     price: 100,
-    image: 'image',
+    imageURL: 'imageURL',
   );
   test('', () {});
 

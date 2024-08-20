@@ -17,9 +17,9 @@ void main() {
   final testUpdateProduct = Product(
     id: '1',
     name: 'product',
-    info: 'description',
+    description: 'description',
     price: 100,
-    image: 'image',
+    imageURL: 'imageURL',
   );
   test(
       'should update a product from repository and return either a unit or failure',

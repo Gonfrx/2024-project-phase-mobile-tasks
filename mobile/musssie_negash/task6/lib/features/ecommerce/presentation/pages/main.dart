@@ -182,9 +182,9 @@ class MyCard extends StatelessWidget {
                       product: Product(
                           name: 'Nike',
                           price: 10,
-                          info: "fasdl",
+                          description: "fasdl",
                           id: 'fa',
-                          image: 'images/derby.jpg'),
+                          imageURL: 'images/derby.jpg'),
                     );
                   }),
                 );

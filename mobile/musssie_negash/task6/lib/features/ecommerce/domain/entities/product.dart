@@ -1,15 +1,21 @@
-class Product {
+import 'package:equatable/equatable.dart';
+
+class Product extends Equatable {
   String name;
-  int price;
-  String info;
+  double price;
+  String description;
   String id;
-  String image;
+  String imageURL;
 
   Product({
     required this.name,
     required this.price,
-    required this.info,
+    required this.description,
     required this.id,
-    required this.image,
+    required this.imageURL,
   });
+
+  @override
+  // TODO: implement props
+  List<Object?> get props => [name, id, price, description, imageURL];
 }
