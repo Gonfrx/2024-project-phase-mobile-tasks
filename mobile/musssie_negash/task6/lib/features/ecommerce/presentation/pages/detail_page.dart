@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:task6/product.dart';
+
+import '../../domain/entities/product.dart';
+
+
 
 /// The DetailPage is a stateful widget that displays detailed information about a product.
 class DetailPage extends StatefulWidget {

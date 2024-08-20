@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:task6/add_page.dart';
-import 'package:task6/detail_page.dart';
-import 'package:task6/product.dart';
-import 'package:task6/search_page.dart';
+
+import '../../domain/entities/product.dart';
+import 'add_page.dart';
+import 'detail_page.dart';
+import 'search_page.dart';
 
 void main() {
   runApp(const MyApp());

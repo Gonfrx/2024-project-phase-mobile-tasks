@@ -1,4 +1,4 @@
-name: task6
+name: clean_arc_practice
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -31,13 +31,24 @@ dependencies:
   flutter:
     sdk: flutter
 
+  dartz: ^0.10.1
+  equatable: ^2.0.3
+  flutter_bloc: ^8.0.1
+  get_it: ^7.2.0
+  http: ^1.2.2
+  rxdart: ^0.28.0
+
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
 
 dev_dependencies:
+  bloc_test: ^9.0.2
+  build_runner: ^2.1.2
   flutter_test:
     sdk: flutter
+  mockito: ^5.0.15
+  mocktail: ^1.0.4
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
